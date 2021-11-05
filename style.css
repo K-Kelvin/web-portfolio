@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: rgb(241, 227, 227);
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    color: orange;
+    font-size: 26px;
+}
+.nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.section {
+    display: flex;
+    justify-content: space space-around;
+    width: 100vw;
+    height: 25vh;
+}
+.section {
+    height: 40vh;
+    width: 100w;
+}
