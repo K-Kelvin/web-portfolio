@@ -1,38 +1,66 @@
-body {
+* {
+    padding: 0;
     margin: 0;
-    background-color: rgb(241, 227, 227);
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: blue;
+    color: rgb(119, 116, 116);
+}
 .header {
     display: flex;
     width: 100vw;
     height: 10vh;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.header .logo {
+    color: orange;
+    font-size: 2rem;
+}
+.header .nav {
+    display: flex;
+    gap: 2rem;
+}
+.header .nav a {
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.header .nav a:hover {
+    color: blue;
+    background: white;
+}
+.header .nav a.active {
+    color: white;
+    background: orange;
 }
 
-.logo {
-    width: 50%;
-    color: orange;
-    font-size: 26px;
-}
-.nav {
+/* Home page */
+#home {
+    background-color: red;
     display: flex;
-    width: 50%;
-    justify-content: space-around;
-    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
-.nav a {
-    text-decoration: none;
-    font-size: 18px;
+#home .home-img {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
 }
-.section {
-    display: flex;
-    justify-content: space space-around;
-    width: 100vw;
-    height: 25vh;
-}
-.section {
-    height: 40vh;
-    width: 100w;
+.wrapper {
+    background: orange;
 }
